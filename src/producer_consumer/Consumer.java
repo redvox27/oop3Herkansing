@@ -11,7 +11,10 @@ public class Consumer implements Runnable {
 
     @Override
     public synchronized void run() {
-       while(!queue.isEmpty()){
+        while(queue.isEmpty()){
+            System.out.println("lege lijst");
+        }
+        while(!queue.isEmpty()){
 
                int value = queue.peek();
                System.out.println(" polled: " + value);

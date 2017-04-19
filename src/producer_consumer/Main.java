@@ -10,12 +10,14 @@ public class Main {
 
     public static void main(String[] args) {
 
-        ExecutorService executorService = Executors.newFixedThreadPool(2);
-        executorService.execute(new Producer());
-        executorService.execute(new Consumer());
-        executorService.shutdown();
+        Producer producer = new Producer();
+        Consumer consumer = new Consumer();
 
-        System.out.println(Myqueue.getQueue().size());
+        Thread thread1 = new Thread(producer);
+        Thread thread2 = new Thread(consumer);
+
+        thread1.start();
+        thread2.start();
     }
 
 }
