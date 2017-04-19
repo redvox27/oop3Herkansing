@@ -1,0 +1,63 @@
+{
+  "books": [
+    {
+      "title": "Head First Java",
+      "author": "Kathy Sierra",
+      "price": "25.50",
+      "publication_year": "2005"
+    },
+    {
+      "title": "Intro to Java Programming",
+      "author": "Daniel Liang",
+      "price": "51.27",
+      "publication_year": "2014"
+    },
+    {
+      "title": "Effective Java",
+      "author": "Joshua Bloch",
+      "price": "36.59",
+      "publication_year": "2008"
+    },
+    {
+      "title": "Java EE 7 Development",
+      "author": "David Heffelfinger",
+      "price": "67.56",
+      "publication_year": "2015"
+    },
+    {
+      "title": "Java 8 in Action",
+      "author": "Mario Fusco",
+      "price": "30.37",
+      "publication_year": "2016"
+    },
+    {
+      "title": "Java How To Program",
+      "author": " Paul Deitel",
+      "price": "59.45",
+      "publication_year": "2014"
+    },
+    {
+      "title": "Think Java:",
+      "author": "Allen Downey",
+      "price": "54.45",
+      "publication_year": "2015"
+    },
+    {
+      "title": "Java Concurrency in Practice",
+      "author": "Brian Goetz",
+      "price": "32.34",
+      "publication_year": "2015"
+    },
+    {
+      "title": "Thinking in Java ",
+      "author": "Bruce Eckel",
+      "price": "44.79",
+      "publication_year": "2013"
+    },
+    {
+      "title": "Java For Android",
+      "author": "Evan App",
+      "price": "3.60",
+      "publication_year": "2014"
+    }]
+}
