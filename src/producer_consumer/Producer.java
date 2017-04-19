@@ -11,7 +11,7 @@ public class Producer implements Runnable{
     private Queue<Integer> queue = Myqueue.getQueue();
 
     @Override
-    public void run() {
+    public synchronized void run() {
         Random random = new Random();
         int j = random.nextInt(20);
         for (int i =0; i < 11;i++){

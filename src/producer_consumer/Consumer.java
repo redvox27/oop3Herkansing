@@ -10,13 +10,13 @@ public class Consumer implements Runnable {
     private Queue<Integer> queue = Myqueue.getQueue();
 
     @Override
-    public void run() {
-       while(true){
-           if (!queue.isEmpty()){
+    public synchronized void run() {
+       while(!queue.isEmpty()){
+
                int value = queue.peek();
                System.out.println(" polled: " + value);
                queue.remove(queue.peek());
-           }
+
 
 
        }
